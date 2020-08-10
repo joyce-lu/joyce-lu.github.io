@@ -1,0 +1,208 @@
+body {
+  background: #333333;
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
+}
+
+svg {
+     width: 4%;
+     position: fixed;
+     left: 60px;
+     top: 60px;
+     margin: auto;
+}
+
+.welcome {
+  margin: auto;
+  position: absolute;
+  top: 340px;
+  left: 800px;
+  font: 48px/70px 'Roboto Mono', monospace;
+  text-align: right;
+}
+
+.nav-bar {
+  font: bold 14px/1.4;
+  position: fixed;
+  top: 690px;
+  left: 960px;
+}
+
+.nav-bar a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.nav-bar ul { 
+  margin: auto; 
+  list-style: none; 
+  display: table;
+  width: 400px;
+  text-align: center;
+}
+
+.nav-bar li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+
+.nav-bar a:active {
+  color: #fc6b03;
+}
+
+.nav-bar a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fc6b03;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.nav-bar a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+#home {
+  margin: auto;
+  padding: 0% 0% 5%;
+}
+
+#hello {
+  margin: auto;
+  padding: 5% 0 10%;
+}
+
+#projects {
+  margin: auto;
+  padding: 4% 0 10%;
+}
+
+#musings {
+  margin: auto;
+  padding: 140px 0 200px;
+}
+
+
+
+
+
+
+
+
+
+
+.intro {
+  margin: auto;
+  width: 640px;
+  position: relative;
+}
+
+.psst {
+  color: #bfbfbf;
+  font-size: 12px;
+}
+
+.emphasize {
+  color: #fc6b03;
+}
+
+a {
+  color: #fc6b03;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 4;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fc6b03;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+
+
+
+
+
+.scroll-container {
+  overflow-y: scroll;
+  width: 720px;
+  height: 500px;
+  margin: auto;
+  border-color: transparent #fff3e6 transparent transparent;
+  border-width: 6px;
+  border-style: solid;
+}
+
+#project-title {
+  margin: auto;
+  width: 720px;
+}
+
+.project {
+  margin: auto;
+  width: 640px;
+  position: relative;
+  padding: 100px 0px 100px 0px;
+}
+
+.project img {
+  display: block;
+  margin: auto;
+  padding: 40px;
+  width: 3%;
+}
+
+
+
+
+
+#message {
+  margin: auto;
+  width: 640px;
+}
+
+#musings img {
+  display: block;
+  margin: auto;
+  width: 30%;
+  border-radius:50%;
+  border-style: solid;
+  border-color: #fff3e6;
+  border-width: 2px;
+}
+
